@@ -1,0 +1,120 @@
+.gallery-page-hero {
+  padding: calc(var(--nav-h) + 48px) 24px 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.gallery-page-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  margin: 0 0 12px;
+}
+
+.gallery-page-hero p {
+  color: var(--muted);
+  max-width: 640px;
+  margin: 0 0 24px;
+}
+
+.gallery-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--teal);
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.gallery-back:hover {
+  text-decoration: underline;
+}
+
+/* Masonry-style grid — each item keeps its own image/video proportions */
+.gallery-media-grid {
+  max-width: 1180px;
+  margin: 0 auto 80px;
+  padding: 0 24px 60px;
+  columns: 1;
+  column-gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .gallery-media-grid {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-media-grid {
+    columns: 3;
+  }
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--bg2);
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+
+.gallery-item video {
+  background: var(--d3);
+}
+
+.gallery-item figcaption {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.gallery-item .media-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+.not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.not-found h1 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  margin: 0 0 12px;
+}
+
+.not-found p {
+  color: var(--muted);
+  margin-bottom: 28px;
+}

@@ -1,0 +1,17 @@
+:root {
+  --bg: #0a0e12;
+  --bg2: #111820;
+  --surface: rgba(18, 26, 34, 0.72);
+  --teal: #00c9a7;
+  --teal-dim: rgba(0, 201, 167, 0.15);
+  --teal-glow: rgba(0, 201, 167, 0.45);
+  --text: #e8eef4;
+  --muted: #8a9aac;
+  --line: rgba(255, 255, 255, 0.08);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --nav-h: 88px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}

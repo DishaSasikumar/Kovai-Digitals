@@ -1,0 +1,172 @@
+.admin-page {
+  min-height: 100vh;
+  padding: calc(var(--nav-h) + 32px) 24px 80px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.admin-login {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 40px 32px;
+  background: var(--d3);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.admin-login h1 {
+  font-family: var(--fs);
+  font-size: 1.75rem;
+  margin: 16px 0 8px;
+}
+
+.admin-login p {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.admin-login label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.admin-login input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  background: var(--d2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--white);
+  font-family: var(--fb);
+}
+
+.admin-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--teal);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.admin-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.admin-toolbar h1 {
+  font-family: var(--fs);
+  font-size: 2rem;
+  margin: 8px 0 4px;
+}
+
+.admin-toolbar p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.admin-toolbar-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-error {
+  color: #f87171;
+  margin-bottom: 16px;
+}
+
+.admin-loading,
+.admin-empty {
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--d3);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.admin-table th {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--teal);
+  background: var(--d2);
+}
+
+.admin-table a {
+  color: var(--teal);
+}
+
+.admin-msg {
+  max-width: 280px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.admin-del {
+  background: transparent;
+  border: none;
+  color: rgba(248, 113, 113, 0.85);
+  cursor: pointer;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.admin-del:hover {
+  color: #f87171;
+}
+
+.contact-enquiry-note {
+  font-size: 13px !important;
+  opacity: 0.85;
+  margin-top: -12px !important;
+}
+
+.contact-form-err {
+  color: #f87171;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.btn-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+@media (max-width: 900px) {
+  .admin-table {
+    font-size: 12px;
+  }
+
+  .admin-msg {
+    max-width: 160px;
+  }
+}
