@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-oauth/google": "^0.12.1",
     "framer-motion": "^11.18.0",
     "kovai-digital-site": "file:..",
     "react": "^18.3.1",
