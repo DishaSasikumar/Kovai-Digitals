@@ -87,35 +87,7 @@ export default function Contact() {
           </div>
         </div>
 
-      <div className="contact-form reveal-r">
-  <div className="cf-title">Contact Us</div>
-
-  <p>
-    For bookings and enquiries, please contact us directly:
-  </p>
-
-  <div className="contact-direct">
-    <p>
-      📞 <a href="tel:+919843318431">+91 98433 18431</a>
-    </p>
-
-    <p>
-      📞 <a href="tel:+919047018431">+91 90470 18431</a>
-    </p>
-
-    <p>
-      ✉️ <a href="mailto:sasi_kovaidigital@yahoo.com">
-        sasi_kovaidigital@yahoo.com
-      </a>
-    </p>
-
-    <p>
-      ✉️ <a href="mailto:demono_viji@yahoo.com">
-        demono_viji@yahoo.com
-      </a>
-    </p>
-  </div>
-</div>
+      <div className="contact-form reveal-r"></div>
       </div>
     </section>
   );

@@ -422,9 +422,21 @@ section{position:relative;z-index:3;}
    CONTACT & REACH US
 ========================================================= */
 .contact{background:var(--dark);}
-.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
-.contact-info{margin-top:48px;display:flex;flex-direction:column;gap:24px;}
-.ci{display:flex;gap:16px;align-items:flex-start;}
+.contact-inner{display:flex;
+  justify-content:center;}
+  .contact-inner > div:first-child{
+  max-width:700px;
+  width:100%;
+}
+.contact .sec-lbl,
+.contact .sec-title,
+.contact .sec-sub{
+  text-align:center;
+}
+.contact-info{margin-top:48px;display:flex;flex-direction:column;gap:24px;max-width:600px;
+  margin-left:auto;
+  margin-right:auto;}
+.ci{display:flex;gap:16px;align-items:flex-start;  justify-content:center;}
 .ci-icon{
   width:46px;height:46px;border-radius:8px;
   background:rgba(0,201,167,.1);border:1px solid rgba(0,201,167,.2);
