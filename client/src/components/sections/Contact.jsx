@@ -1,24 +1,7 @@
-import React from 'react';
-
-const serviceOptions = [
-  'LED Wall Rental',
-  'Rental Appliances',
-  'Premium Furniture',
-  'LED TV Rental',
-  'Interior Fabrication',
-  'Complete Event Solution',
-  'Others',
-];
-
 export default function Contact() {
-
-
- 
-
   return (
     <section className="contact sec-pad" id="contact">
-      <div className="contact-inner">
-        <div className="reveal-l">
+      <div className="contact-inner reveal-l">
           <div className="sec-lbl">Get in Touch</div>
           <h2 className="sec-title">
             Let&apos;s Plan Your <em>Event</em>
@@ -85,9 +68,6 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </div>
-
-      <div className="contact-form reveal-r"></div>
       </div>
     </section>
   );

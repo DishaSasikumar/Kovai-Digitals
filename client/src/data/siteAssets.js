@@ -17,12 +17,12 @@ export const heroCorporateImage = '/images/hero.jpg';
 export const aboutImage = '/images/about.jpg';
 
 export const galleryTiles = [
-  { src: '/images/gallery/gallery1.jpg', label: 'Annual Day & Conferences', sub: 'Stage · LED · Furniture' },
-  { src: '/images/gallery/gallery2.jpg', label: 'Corporate Meet', sub: 'Seating · Interior Setup' },
+  { src: '/images/gallery/gallery1.jpg', label: 'Get Togethers', sub: 'Stage · LED · Furniture' },
+  { src: '/images/gallery/gallery2.jpg', label: 'Corporate Meet', sub: 'Queue Manager · Interior Setup' },
   { src: '/images/gallery/gallery3.jpg', label: 'Premium Event', sub: 'Full A–Z Fabrication' },
-  { src: '/images/gallery/gallery4.jpeg', label: 'Event Gallery', sub: 'Stage & Decor' },
-  { src: '/images/gallery/gallery5.jpeg', label: 'Immersive Experiences', sub: 'Entertainment · Tech' },
-  { src: '/images/gallery/gallery6.jpeg', label: 'Event Production', sub: 'Full venue setup' },
+  { src: '/images/gallery/gallery4.jpeg', label: 'Event Gallery', sub: 'Seating & Furniture' },
+  { src: '/images/gallery/gallery5.jpeg', label: 'Statue Inaugration', sub: 'Product Reveal Setup · Automation' },
+  { src: '/images/gallery/gallery6.png', label: 'School Event', sub: 'Full venue setup' },
 ];
 
 /** Local path helper for expertise media */
@@ -35,13 +35,15 @@ export const expertiseGalleries = {
     items: [
       { type: 'image', src: E('premium-furniture', '01.jpg'), caption: 'Conference lounge layout' },
       { type: 'image', src: E('premium-furniture', '02.jpg'), caption: 'Corporate seating setup' },
+        { type: 'image', src: E('premium-furniture', '05.jpg'), caption: 'Resort Wedding Setup' },
+         { type: 'image', src: E('premium-furniture', '03.png'), caption: 'Premium Black Chairs' },
       {
         type: 'video',
         src: E('premium-furniture', '03.mp4'),
         poster: E('premium-furniture', '03-poster.jpg'),
         caption: 'Furniture showcase',
       },
-      { type: 'image', src: E('premium-furniture', '04.jpg'), caption: 'Event seating detail' },
+      { type: 'image', src: E('premium-furniture', '06.png'), caption: 'Event seating detail' },
     ],
   },
   'led-wall-systems': {
@@ -63,8 +65,10 @@ export const expertiseGalleries = {
     title: 'Rental Appliances',
     intro: 'Projectors, sound, and event appliances available on rent for your venue.',
     items: [
-      { type: 'image', src: E('rental-appliances', '01.jpg'), caption: 'Rental appliance setup' },
-      { type: 'image', src: E('rental-appliances', '02.jpg'), caption: 'Event equipment' },
+      { type: 'image', src: E('rental-appliances', '01.png'), caption: 'Audio setup' },
+      { type: 'image', src: E('rental-appliances', '02.png'), caption: 'Event equipment' },
+      { type: 'image', src: E('rental-appliances', '03.png'), caption: 'Event equipment' },
+      { type: 'image', src: E('rental-appliances', '04.jpg'), caption: 'Event equipment' },
       {
         type: 'video',
         src: E('rental-appliances', '03.mp4'),
