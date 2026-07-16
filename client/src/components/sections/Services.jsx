@@ -8,12 +8,11 @@ export default function Services() {
         <div>
           <div className="sec-lbl">What We Do</div>
           <h2 className="sec-title">
-            Our <em>Expertise</em>
+            Our <em>Expertise Gallery</em>
           </h2>
         </div>
         <p className="sec-sub">
-          Tap a category to open its dedicated gallery — add your own shoots and reels whenever you are
-          ready.
+          Tap a category to open its dedicated gallery — Our Premium Products and Successful Events
         </p>
       </div>
       <div className="services-grid">

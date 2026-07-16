@@ -22,7 +22,7 @@ export default function GalleryPage() {
     <>
       <div className="gallery-page-hero">
         <Link to="/#services" className="gallery-back">
-          <i className="fas fa-arrow-left" /> Our Expertise
+          <i className="fas fa-arrow-left" /> Our Expertise Gallery
         </Link>
         <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
           {gallery.title}

@@ -18,7 +18,7 @@ export const expertise = [
   },
   {
     slug: 'led-wall-systems',
-    title: 'LED Wall Systems',
+    title: 'LED Tvs & LED Wall Systems',
     description: 'High-brightness indoor LED canvases for keynote stages, launches, and immersive branding.',
     icon: 'fa-tv',
   },
@@ -30,9 +30,9 @@ export const expertise = [
   },
   {
     slug: 'led-tvs',
-    title: 'LED TVs (32″–85″)',
-    description: 'Commercial displays for breakout areas, registration desks, and digital signage loops.',
-    icon: 'fa-desktop',
+    title: 'Unveiling Setups',
+    description: 'Elegant display featuring a curtain reveal to unveil products, portraits, logos, or special moments.',
+    icon: 'fa-gift',
   },
   {
     slug: 'others',

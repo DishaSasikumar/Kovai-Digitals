@@ -35,6 +35,8 @@ export const expertiseGalleries = {
     items: [
       { type: 'image', src: E('premium-furniture', '01.jpg'), caption: 'Conference lounge layout' },
       { type: 'image', src: E('premium-furniture', '02.jpg'), caption: 'Corporate seating setup' },
+      { type: 'image', src: E('premium-furniture', '08.png'), caption: 'Two Seater Black Sofas' },
+      { type: 'image', src: E('premium-furniture', '10.png'), caption: 'Two Seater White Sofas' },
       { type: 'image', src: E('premium-furniture', '04.png'), caption: 'Premium Wooden Teapoi' }, 
       { type: 'image', src: E('premium-furniture', '05.jpg'), caption: 'Resort Wedding Setup' },
          { type: 'image', src: E('premium-furniture', '03.png'), caption: 'Premium Black Chairs' },
@@ -48,18 +50,21 @@ export const expertiseGalleries = {
     ],
   },
   'led-wall-systems': {
-    title: 'LED Wall Systems',
+    title: 'LED Tvs & LED Wall Systems',
     intro: 'Indoor LED stages, keynotes, and immersive brand experiences.',
     items: [
+       { type: 'image', src: E('led-wall-systems', '04.jpeg'), caption: 'LED Wall' },
       { type: 'image', src: E('led-wall-systems', '01.jpg'), caption: 'LED backdrop on stage' },
+       { type: 'image', src: E('led-wall-systems', '03.jpeg'), caption: 'LED Wall' },
+        { type: 'image', src: E('led-wall-systems', '05.jpeg'), caption: 'LED Wall' },
+         { type: 'image', src: E('led-wall-systems', '02.jpg'), caption: 'LED Tv' },
       {
         type: 'video',
         src: E('led-wall-systems', '02.mp4'),
         poster: E('led-wall-systems', '02-poster.jpg'),
         caption: 'LED wall in action',
       },
-      { type: 'image', src: E('led-wall-systems', '03.jpg'), caption: 'Stage lighting design' },
-      { type: 'image', src: E('led-wall-systems', '04.jpg'), caption: 'Audience & screen scale' },
+     
     ],
   },
   'rental-appliances': {
@@ -76,14 +81,21 @@ export const expertiseGalleries = {
         poster: E('rental-appliances', '03-poster.jpg'),
         caption: 'Appliance showcase',
       },
+       { type: 'image', src: E('rental-appliances', '05.png'), caption: 'Upright Beverage freezer' },
+        { type: 'image', src: E('rental-appliances', '06.png'), caption: 'Double Door Deep Freezer' },
+         { type: 'image', src: E('rental-appliances', '07.png'), caption: 'Microwave Oven' },
+          { type: 'image', src: E('rental-appliances', '08.png'), caption: 'Digital Standee' },
     ],
   },
   'led-tvs': {
-    title: 'LED TVs (32″–85″)',
+    title: 'Unveiling setups',
     intro: 'Digital signage, sponsor loops, and breakout displays.',
     items: [
-      { type: 'image', src: E('led-tvs', '01.jpg'), caption: '65 inch LED Tv' },
-      { type: 'image', src: E('led-tvs', '02.jpg'), caption: '85 inch LED Tv' },
+      
+      { type: 'image', src: E('led-tvs', '01.jpeg'), caption: 'Automatic Room setup Red' },
+      { type: 'image', src: E('led-tvs', '02.jpeg'), caption: 'Automatic Room setup Outdoor Red' },
+      { type: 'image', src: E('led-tvs', '03.jpeg'), caption: 'Automatic Room setup Blue' },
+      { type: 'image', src: E('led-tvs', '04.jpeg'), caption: 'Automatic Frontage View Setup' },
       {
         type: 'video',
         src: E('led-tvs', '03.mp4'),
@@ -121,6 +133,7 @@ export const expertiseGalleries = {
     title: 'Complete Event Solutions',
     intro: 'End-to-end production — creative, technical, and on-site crew.',
     items: [
+      { type: 'image', src: E('complete-event-solutions', '08.jpeg'), caption: 'Corporate Summit' },
       { type: 'image', src: E('complete-event-solutions', '05.jpeg'), caption: 'Amaran Movie promotion' },
       { type: 'image', src: E('complete-event-solutions', '01.jpg'), caption: 'Annual Day Event' },
       { type: 'image', src: E('complete-event-solutions', '02.jpg'), caption: 'Partial Anirudh concert' },
@@ -131,6 +144,7 @@ export const expertiseGalleries = {
         caption: 'Event highlight reel',
       },
       { type: 'image', src: E('complete-event-solutions', '04.jpg'), caption: 'Partial Vijay Antony concert' },
+      { type: 'image', src: E('complete-event-solutions', '10.png'), caption: 'Corporate Summit' },
       { type: 'image', src: E('complete-event-solutions', '06.png'), caption: 'Corporate Summit' },
     ],
   },
