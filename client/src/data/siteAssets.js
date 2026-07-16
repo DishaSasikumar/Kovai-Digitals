@@ -35,7 +35,8 @@ export const expertiseGalleries = {
     items: [
       { type: 'image', src: E('premium-furniture', '01.jpg'), caption: 'Conference lounge layout' },
       { type: 'image', src: E('premium-furniture', '02.jpg'), caption: 'Corporate seating setup' },
-        { type: 'image', src: E('premium-furniture', '05.jpg'), caption: 'Resort Wedding Setup' },
+      { type: 'image', src: E('premium-furniture', '04.png'), caption: 'Premium Wooden Teapoi' }, 
+      { type: 'image', src: E('premium-furniture', '05.jpg'), caption: 'Resort Wedding Setup' },
          { type: 'image', src: E('premium-furniture', '03.png'), caption: 'Premium Black Chairs' },
       {
         type: 'video',
@@ -66,9 +67,9 @@ export const expertiseGalleries = {
     intro: 'Projectors, sound, and event appliances available on rent for your venue.',
     items: [
       { type: 'image', src: E('rental-appliances', '01.png'), caption: 'Audio setup' },
-      { type: 'image', src: E('rental-appliances', '02.png'), caption: 'Event equipment' },
-      { type: 'image', src: E('rental-appliances', '03.png'), caption: 'Event equipment' },
-      { type: 'image', src: E('rental-appliances', '04.jpg'), caption: 'Event equipment' },
+      { type: 'image', src: E('rental-appliances', '02.png'), caption: 'Air Cooler' },
+      { type: 'image', src: E('rental-appliances', '03.png'), caption: 'Refridgerator' },
+      { type: 'image', src: E('rental-appliances', '04.jpg'), caption: 'Air Cooler' },
       {
         type: 'video',
         src: E('rental-appliances', '03.mp4'),
@@ -81,8 +82,8 @@ export const expertiseGalleries = {
     title: 'LED TVs (32″–85″)',
     intro: 'Digital signage, sponsor loops, and breakout displays.',
     items: [
-      { type: 'image', src: E('led-tvs', '01.jpg'), caption: 'Presentation wall' },
-      { type: 'image', src: E('led-tvs', '02.jpg'), caption: 'Registration desk display' },
+      { type: 'image', src: E('led-tvs', '01.jpg'), caption: '65 inch LED Tv' },
+      { type: 'image', src: E('led-tvs', '02.jpg'), caption: '85 inch LED Tv' },
       {
         type: 'video',
         src: E('led-tvs', '03.mp4'),
@@ -96,16 +97,16 @@ export const expertiseGalleries = {
     intro:
       'Catch-all gallery for miscellaneous work — add photos and videos here when they do not belong under Furniture, LED, TVs, rentals, or full event solutions.',
     items: [
-      { type: 'image', src: E('others', '01.jpg'), caption: 'Gallery item 1' },
-      { type: 'image', src: E('others', '02.jpg'), caption: 'Gallery item 2' },
-      { type: 'image', src: E('others', '03.jpg'), caption: 'Gallery item 3' },
+      { type: 'image', src: E('others', '01.png'), caption: '360 degree selfie booth' },
+      { type: 'image', src: E('others', '02.png'), caption: 'Podium' },
+      { type: 'image', src: E('others', '03.png'), caption: 'Coffee Machine' },
       {
         type: 'video',
         src: E('others', '04.mp4'),
         poster: E('others', '04-poster.jpg'),
         caption: 'Video 1',
       },
-      { type: 'image', src: E('others', '05.jpg'), caption: 'Gallery item 4' },
+      { type: 'image', src: E('others', '04.png'), caption: 'Mannequin' },
       {
         type: 'video',
         src: E('others', '06.mp4'),
@@ -120,15 +121,17 @@ export const expertiseGalleries = {
     title: 'Complete Event Solutions',
     intro: 'End-to-end production — creative, technical, and on-site crew.',
     items: [
-      { type: 'image', src: E('complete-event-solutions', '01.jpg'), caption: 'Corporate summit' },
-      { type: 'image', src: E('complete-event-solutions', '02.jpg'), caption: 'Audience experience' },
+      { type: 'image', src: E('complete-event-solutions', '05.jpeg'), caption: 'Amaran Movie promotion' },
+      { type: 'image', src: E('complete-event-solutions', '01.jpg'), caption: 'Annual Day Event' },
+      { type: 'image', src: E('complete-event-solutions', '02.jpg'), caption: 'Partial Anirudh concert' },
       {
         type: 'video',
         src: E('complete-event-solutions', '03.mp4'),
         poster: E('complete-event-solutions', '03-poster.jpg'),
         caption: 'Event highlight reel',
       },
-      { type: 'image', src: E('complete-event-solutions', '04.jpg'), caption: 'Networking reception' },
+      { type: 'image', src: E('complete-event-solutions', '04.jpg'), caption: 'Partial Vijay Antony concert' },
+      { type: 'image', src: E('complete-event-solutions', '06.png'), caption: 'Corporate Summit' },
     ],
   },
 };
@@ -165,7 +168,7 @@ export const imagePlacements = [
 export const clientReviews = [
   {
     id: 'client-1',
-    name: 'Priya Sharma',
+    name: 'Saravanan',
     role: 'Delighted Customer',
     rating: 5,
     text:
@@ -173,7 +176,7 @@ export const clientReviews = [
   },
   {
     id: 'client-2',
-    name: 'Arjun Patel',
+    name: 'Rajeev',
     role: 'Satisfied Client',
     rating: 5,
     text:
@@ -181,7 +184,7 @@ export const clientReviews = [
   },
   {
     id: 'client-3',
-    name: 'Anjali Desai',
+    name: 'Nimesh',
     role: 'Happy Customer',
     rating: 5,
     text:
@@ -189,10 +192,10 @@ export const clientReviews = [
   },
   {
     id: 'client-4',
-    name: 'Rajesh Iyer',
+    name: 'Aashiq',
     role: 'Repeat Customer',
     rating: 5,
     text:
-      "Second time working with them — they've maintained excellent standards! Furniture and LED arrangements for our family function were perfect. Always punctual and professional.",
+      "Nth time working with them — they've maintained excellent standards! Furniture and LED arrangements for our family function were perfect. Always punctual and professional.",
   },
 ];
